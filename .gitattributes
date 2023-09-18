@@ -1,1 +1,1 @@
-/path/to/directory/*.extension linguist-language=SQL
+/*.sql linguist-language=SQL

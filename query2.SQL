@@ -1,3 +1,4 @@
+
 SELECT 
 yt.vendor_name, trip_Pickup_year AS year,
  JSON_AGG(distinct yf.payment_type) AS payment_type,

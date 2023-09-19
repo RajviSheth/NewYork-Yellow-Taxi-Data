@@ -1,4 +1,4 @@
-
+-- Total number of trips for distance greater than 5
 SELECT 
 yt.vendor_name, trip_Pickup_year AS year,
  JSON_AGG(distinct yf.payment_type) AS payment_type,
